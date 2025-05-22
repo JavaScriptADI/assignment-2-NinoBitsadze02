@@ -51,15 +51,14 @@ let calcSecond = prompt("Enter the second number for calculation.");
 let calcSymbol = prompt("Which operation do you want to perform? (+, -, *, /")
 let calcOne = parseInt(calcFirst);
 let calcTwo = parseInt(calcSecond);
-let calcThree = parseInt(calcSymbol);
 
-if (calcThree == '+') {
+if (calcSymbol == '+') {
     console.log("Result: " + calcOne + calcTwo);
-} else if (calcThree == '-') {
+} else if (calcSymbol == '-') {
     console.log("Result: " + calcOne - calcTwo);
-} else if (calcThree == '*') {
+} else if (calcSymbol == '*') {
     console.log("Result: " + calcOne * calcTwo);
-} else if (calcThree == '/') {
+} else if (calcSymbol == '/') {
     console.log("Result: " + calcOne / calcTwo);
 }
 
